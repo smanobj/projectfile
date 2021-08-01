@@ -92,39 +92,50 @@ footer {
 }
 
 #bob {
+    background-color: rgb(63, 26, 63);
     color: white;
     border-radius: 10px;
     margin-right: 10px;
     width: 32%;
+    float: ;
 }
 
 #margi {
+    background-color: rgb(63, 26, 63);
     width: 32%;
     color: white;
     border-radius: 10px;
     margin-right: 10px;
-    float: right;
+    float: left;
 }
 #mike {
-    width: 32%;
+    background-color: rgb(63, 26, 63);
+    max-height: 60em;
+    width: 32.5%;
     color: white;
     border-radius: 10px;
     margin-right: 10px;
-    float: right;
+    float: left;
+}
+
 }
 
 .art {
-    display: flex;
-    background-color: rgb(63, 26, 63);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
     padding-top: 0px;
-
+    position: relative;
+    float: right;
 }
 
-.art img {
-    width: 80px;
+#artcontainer {
+    width: 100px;
     height: 100px;
     border-radius: 50px;
     float: left;
+    color: black;
 }
 
 .toggle-button {
