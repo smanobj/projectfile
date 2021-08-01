@@ -1,0 +1,145 @@
+body {
+    background-color: beige;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+* {
+    box-sizing: border-box;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px){
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}   
+}
+
+@media only screen and (min-width: 768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 873px) {
+
+}
+    
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navcontainer {
+    margin: 0px;
+    padding: 0px;
+     background-color: rgb(63, 26, 63);
+     display: flex;
+}
+.topnav li {
+    background-color: ;
+    padding: 14px 16px;
+    margin-left: 0px;
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    border-radius: 10px;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;   
+}
+
+footer {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+
+#bob {
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 32%;
+}
+
+#margi {
+    width: 32%;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: right;
+}
+#mike {
+    width: 32%;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.art {
+    display: flex;
+    background-color: rgb(63, 26, 63);
+    padding-top: 0px;
+
+}
+
+.art img {
+    width: 80px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+}
+
+.toggle-button {
+        position: absolute;
+        top: 0.75rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+     width: 100%;
+     background-color: white;
+     border-radius: 10px;
+}
